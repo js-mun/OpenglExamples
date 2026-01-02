@@ -30,5 +30,5 @@ target_link_libraries(HelloTriangle
     OpenGL::GL
 )
 
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/3.3.shader.vs ${CMAKE_CURRENT_BINARY_DIR}/3.3.shader.vs COPYONLY)
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/3.3.shader.fs ${CMAKE_CURRENT_BINARY_DIR}/3.3.shader.fs COPYONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/shaders/3.3.shader.vs ${CMAKE_CURRENT_BINARY_DIR}/3.3.shader.vs COPYONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/shaders/3.3.shader.fs ${CMAKE_CURRENT_BINARY_DIR}/3.3.shader.fs COPYONLY)
